@@ -1,0 +1,147 @@
+/* GENERAL */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px;
+    background: linear-gradient(to bottom, #b3b3b3, #4d4d4d);
+}
+
+
+
+/* CONTAINER */
+.a4-container {
+    width: 60%; /* Relative to viewport width */
+    height: 100%; /* Adjust height relative to width */
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: auto;
+    border-radius: 15px;
+}
+
+
+
+/* HEADER */
+header {
+    background-color: #D8D8D8;
+    border-radius: 15px 15px 0 0;
+    border: solid 3px black;
+    width: 100%;
+    
+}
+
+.primary-info a, .secondary-info a {
+    color: black !important; /* Cambia el color del texto a negro */
+    text-decoration: none !important; /* Elimina la decoración del texto */
+}
+
+.primary-info a:hover, .secondary-info a:hover {
+    color: black; /* Mantén el color negro cuando se pasa el cursor sobre el enlace */
+}
+
+.primary-info a i, .secondary-info a i {
+    color: black !important; /* Cambia el color de los iconos a negro */
+}
+
+/* HEADER -Image Profile */
+.profile-photo {
+    /* Aquí puedes definir las propiedades que quieras cambiar */
+    width: 200px !important; /* Cambia el ancho */
+    max-width: 350px !important; /* Asegura que la imagen no exceda el tamaño del contenedor */
+    height: auto !important; /* Cambia la altura */
+    border-radius: 35%; /* Hace la foto redonda */
+    border: 2px solid #8c8c8c; /* Agrega un borde */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Agrega una sombra */
+    margin-left: 1rem;
+}
+
+
+
+/* FOOTER */
+footer {
+    border: solid 3px black;
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+    padding: 20px;
+    background-color: #D8D8D8; /* Color de fondo del pie de página */
+    
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+
+
+/* MAIN */
+main {
+    border-right: solid 3px black;
+}
+.content {
+    padding: 20px;
+}
+
+main p {
+    font-size: 18px;
+}
+
+main h2 {
+    font-size: 25px;
+    border-bottom: 1px solid black; /* Aplica un borde inferior de 1 píxel de ancho sólido en color negro */
+    padding-bottom: 5px; /* Añade espacio entre el texto y el borde inferior */
+}
+
+main h3 {
+    font-size: 20px;
+}
+
+
+
+/* ASIDEBAR */
+.sidebar {
+    background-color: #D8D8D8;
+    padding: 20px;
+    border-right: solid 3px #000000;
+    border-left: solid 3px #000000;
+    font-size: 16px;
+}
+aside h2 {
+    font-size: 20px;
+    border-bottom: 1px solid black; /* Aplica un borde inferior de 1 píxel de ancho sólido en color negro */
+    padding-bottom: 5px; /* Añade espacio entre el texto y el borde inferior */
+}
+
+/* ASIDE - Estilos para las listas con viñetas personalizadas */
+.sin-vinetado {
+    list-style-type: none; /* Elimina las viñetas */
+    padding-left: 0; /* Elimina el relleno izquierdo */
+}
+
+/* ASIDE -Estilos para las viñetas personalizadas */
+.custom-dot::before {
+    content: "•"; /* Punto personalizado */
+    margin-right: 5px; /* Espacio entre el punto y el texto */
+    font-size: 12px; /* Tamaño del punto */
+}
+
+.progress {
+    height: 0.60rem;
+}
+
+.asidebar {
+  margin-top: auto !important;
+  margin-right: auto !important;
+  margin-left: auto !important; 
+}
+
+
+
+
+
+
+
+
+
+
